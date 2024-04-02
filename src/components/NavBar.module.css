@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  gap: 2px;
+}
+
+.myButton {
+  padding: 2px;
+}

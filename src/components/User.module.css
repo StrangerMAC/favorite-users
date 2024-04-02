@@ -1,0 +1,33 @@
+.userCard {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  width: 400px;
+  border: 1px solid teal;
+  border-radius: 15px;
+}
+
+.userPhoto {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 5px;
+}
+
+.userCardNumber {
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+
+.userStatus {
+  display: flex;
+  flex-grow: inherit;
+  gap: 5px;
+}

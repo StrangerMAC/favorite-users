@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  justify-content: center;
+  /* width: 800px; */
+}
+
+.App-header {
+  display: flex;
+  width: 100%;
+  background-color: #282c34;
+  min-height: 10vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #61dafb;
+  position: sticky;
+  top: 0;
+}
+/* Липкий хедер */
+/* position: sticky;
+  top: 0; */
+
+.App-link {
+  color: white;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: var(--color-active);
+  cursor: default;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.App-footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0px;
+  color: #fff;
+  bottom: 0px;
+}
+
+.pageNumber {
+  padding: 5px;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.pageNumber__wrapper {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.pageNumber__current {
+  color: coral;
+  font-weight: bold;
+}
+
+.usersPage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.usersPage .card {
+  display: flex;
+  align-items: center;
+}
+
+.usersFavoritePage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
